@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Square+Peg&family=Tourney:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Roboto:wght@400;700&family=Square+Peg&family=Tourney:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/387b0d6743.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./style.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header class="hero-image">
+      <div class="hero-text">
+        <h1 class="topText">Portfolio</h1>
+        <div>
+          <p class="name">Monica Morales</p>
+        </div>
+      </div>
+      <div class="nav">
+        <nav id="navBar">
+          <ul>
+            <li><a like href="#profileP">About</a></li>
+            <li><a like href="#myProjects">Projects</a></li>
+            <li><a href="#myContact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="left-container">
+        <i class="fa-solid fa-location-dot"></i> London
+      </div>
+    </header>
+    <div class="skills">
+      <h2 class="mySkills">Monica Morales:</h2>
+      <p class="skillsP">Backend Developer</p>
+      <div class="skill-list">
+        <br />
+
+        <section>
+          <ul class="list">
+            <li class="listItems"><i class="fa-brands fa-github"></i>GitHub</li>
+            <li class="listItems">
+              <i class="fa-brands fa-bootstrap"></i>Bootstrap
+            </li>
+            <li class="listItems"><i class="fa-brands fa-js"></i>JavaScript</li>
+            <li class="listItems"><i class="fa-brands fa-html5"></i>HTML</li>
+            <li class="listItems"><i class="fa-brands fa-node-js"></i>Node.js</li>
+            <li class="listItems"><i class="fa-brands fa-sass"></i>Sass</li>
+          </ul>
+                </div>
+                <img class="myLogo" src="./pixel-pc.png" alt="pixel computer" />
+        </section>
+    </div>
+    <section class="profile">
+      <h2>Profile:</h2>
+      <p id="profileP">
+        I am a loving a caring mother of two. I have a passion to learn new
+        things and the desire to execute them well. For me, life is an eternal
+        apprenticeship. So, it's never bad to learn new things. Since arriving
+        at the Uk, I started learning lots of DIY's, having fixed a lot of bits
+        around my house. Worked in retail, and always had the best feedback from
+        my customers. Since learning coding, have developed passion for
+        keyboards, having now modified more than one and made them look awesome.
+      </p>
+    </section>
+    <br><br><br>
+    <section id="myProjects">
+      <h2 class="ProjH2">Projects</h2>
+      <div id="flex-projects">
+          <div>
+          <img class="photo" src="./pic.jpg" alt="" />
+          <div>
+            <img
+              id="dome"
+              onmouseenter="hide()"
+              onmouseleave="show()"
+              src="./energy-dome.png"
+              alt="energy dome"
+            />
+          </div>
+          <div class="devMo">
+            <span><p class="D">D</p></span>
+            <span><p class="E">E</p></span>
+            <span><p class="V">V</p></span>
+            <span><p>m</p></span>
+            <span><p class="O">O</p></span>
+          </div>
+        </div>
+        <div  class="project"><figure>
+          <img class="projImg" src="./getOrg.jpg" alt="project 1"> <figcaption><p>Get organised</p><a href="https://monicamorales.uk/GetOrganised/" target="_blank"></a></figcaption>
+         </figure>
+      </div>
+         <div class="project">
+           <figure >
+            <img class="projImg" src="./bmiPic.jpg" alt="project 2"> <figcaption><p>project 2</p><a href="https://monicamorales.uk/BmiCalculator/" target="_blank"></a></figcaption>
+           </figure>
+         </div>
+        
+         
+         
+        </div>
+    </section>
+    <section id="myContact">
+      <h3>Contact me</h3>
+<a id="myMail" href="mailto:monicaaghemio@gmail.com">monicaaghemio@gmail.com</a>
+<div id="formDiv">
+  <form action="mailto:monicaaghemio@gmail.com">
+    <div id="form"><p class="contactP">Name:</p><input type="text" required></div>
+    <div id="form"><p class="contactP">E-mail</p><input type="email" required></div>
+    <div class="form-msg"><p class="contactPM">Your message:</p><textarea name="message" required></textarea></div>
+    <div class="submit"><input type="submit" value="send"></div>
+  </form>
+</div>
+    </section>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<script src="./script.js"></script>
+  </body>
+</html>

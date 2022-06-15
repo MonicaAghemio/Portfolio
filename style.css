@@ -251,7 +251,7 @@ figcaption {
   margin-left: -14em;
 }
 #formDiv {
-  display: flex;
+  display: inline;
   flex-wrap: wrap;
 }
 h3 {
@@ -375,21 +375,21 @@ textarea {
   transform: scale(0.2, 0.2) rotate(377deg);
   position: relative;
   margin: -246px;
-  left: -147px;
+  left: -132px;
   top: -57px;
 }
-.hover:hover {
-  display: none;
+#dome:hover {
+  opacity: 0.1;
 }
 .devMo {
-  position: absolute;
+  position: relative;
   display: flex;
   transform: rotate(335deg);
-  bottom: -15em;
-  font-weight: 900;
-  font-size: 23px;
-  opacity: 2;
-  left: 120px;
+ bottom: -1em;
+    font-weight: 900;
+    font-size: 27px;
+    opacity: 2;
+    left: -5em;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -451,14 +451,23 @@ textarea {
   .projImg {
     width: 8rem;
     height: 6rem;
+    POSITION: relative;
+    top: 43px;
+    left: 34px;
   }
 #form {
-  width: 90%;
-  margin-left: -20em;
-  overflow-x: hidden;
+ overflow-x: hidden;
+    position: relative;
+    left: 165px;
+    display: inline;
 }
 #myContact {
-  padding-top: 1em;
+  margin-top: 1em;
+   left: -27px;
+}
+input{
+    width: 22.5em;
+    margin-left: -10em;
 }
 .form-msg {
   position: relative;
@@ -473,9 +482,24 @@ textarea {
 textarea {
   width: 22.4375em;
 }
+.contactP{
+    position: relative;
+    left: -265px;
+}
 .contactPM {
     text-align: left;
     margin-left: 59%;
+  }
+  .photo{
+    margin: -3em;
+    left: 4em;
+  }
+  #dome{
+    left: 8px;
+    top: -76px;
+  }
+  .devMo{
+    left:0;
   }
 }
 

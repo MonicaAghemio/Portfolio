@@ -34,9 +34,9 @@
       <div class="nav">
         <nav id="navBar">
           <ul>
-            <li><a like href="#profileP">About</a></li>
-            <li><a like href="#myProjects">Projects</a></li>
-            <li><a href="#myContact">Contact</a></li>
+            <li><a class="aNavA" like href="#top-content">About</a></li>
+            <li><a class="aNavA" like href="#PROJ">Projects</a></li>
+            <li><a class="aNavA" href="#contactHName">Contact</a></li>
           </ul>
         </nav>
       </div>
@@ -44,87 +44,110 @@
         <i class="fa-solid fa-location-dot"></i> London
       </div>
     </header>
-    <div class="skills">
-      <h2 class="mySkills">Monica Morales:</h2>
-      <p class="skillsP">Backend Developer</p>
-      <div class="skill-list">
-        <br />
-
-        <section>
-          <ul class="list">
-            <li class="listItems"><i class="fa-brands fa-github"></i>GitHub</li>
-            <li class="listItems">
-              <i class="fa-brands fa-bootstrap"></i>Bootstrap
-            </li>
-            <li class="listItems"><i class="fa-brands fa-js"></i>JavaScript</li>
-            <li class="listItems"><i class="fa-brands fa-html5"></i>HTML</li>
-            <li class="listItems"><i class="fa-brands fa-node-js"></i>Node.js</li>
-            <li class="listItems"><i class="fa-brands fa-sass"></i>Sass</li>
-          </ul>
-                </div>
-                <img class="myLogo" src="./pixel-pc.png" alt="pixel computer" />
-        </section>
-    </div>
-    <section class="profile">
-      <h2>Profile:</h2>
-      <p id="profileP">
-        I am a loving a caring mother of two. I have a passion to learn new
-        things and the desire to execute them well. For me, life is an eternal
-        apprenticeship. So, it's never bad to learn new things. Since arriving
-        at the Uk, I started learning lots of DIY's, having fixed a lot of bits
-        around my house. Worked in retail, and always had the best feedback from
-        my customers. Since learning coding, have developed passion for
-        keyboards, having now modified more than one and made them look awesome.
-      </p>
-    </section>
-    <br><br><br>
-    <section id="myProjects">
-      <h2 class="ProjH2">Projects</h2>
-      <div id="flex-projects">
-          <div>
-          <img class="photo" src="./pic.jpg" alt="" />
-          <div>
-            <img
-              id="dome"
-              src="./energy-dome.png"
-              alt="energy dome"
-            />
-          </div>
-          <div class="devMo">
-            <span><p class="D">D</p></span>
-            <span><p class="E">E</p></span>
-            <span><p class="V">V</p></span>
-            <span><p>m</p></span>
-            <span><p class="O">O</p></span>
-          </div>
-        </div>
-        <div  class="project"><figure>
-          <img class="projImg" src="./getOrg.jpg" alt="project 1"> <figcaption><p>Get organised</p><a href="https://monicamorales.uk/GetOrganised/" target="_blank"></a></figcaption>
-         </figure>
-      </div>
-         <div class="project">
-           <figure >
-            <img class="projImg" src="./bmiPic.jpg" alt="project 2"> <figcaption><p>project 2</p><a href="https://monicamorales.uk/BmiCalculator/" target="_blank"></a></figcaption>
-           </figure>
-         </div>
-        
-         
-         
-        </div>
-    </section>
-    <section id="myContact">
-      <h3>Contact me</h3>
-<a id="myMail" href="mailto:monicaaghemio@gmail.com">monicaaghemio@gmail.com</a>
-<div id="formDiv">
-  <form action="mailto:monicaaghemio@gmail.com">
-    <div id="form"><p class="contactP">Name:</p><input type="text" required></div>
-    <div id="form"><p class="contactP">E-mail</p><input type="email" required></div>
-    <div class="form-msg"><p class="contactPM">Your message:</p><textarea name="message" required></textarea></div>
-    <div class="submit"><input type="submit" value="send"></div>
-  </form>
+    <br>
+<main class="grid-parent">
+<section id="top-content">
+  <div class="BCKimage">
+    <div class="item2">
+  <div><img class="photo" src="./pic.jpg" alt="" /></div>
+  <div>
+    <img
+      id="dome"
+      onmouseenter="hide(Dome)"
+      onmouseleave="show(Dome)"
+      src="./energy-dome.png"
+      alt="energy dome"
+    />
+  </div>
+<div class="devMo">
+  <span><p class="D">D</p></span>
+  <span><p class="E">E</p></span>
+  <span><p class="V">V</p></span>
+  <span><p class="DevMo-p">m</p></span>
+  <span><p class="O">O</p></span>
 </div>
-    </section>
-    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+</div>
+  </div>
+  <div class="skills">
+        <h2 class="mySkills"><img class="myLogo" src="./pixel-pc.png" alt="pixel computer" />Backend Developer</h2>
+        <p id="profileP"><br>
+          I am a dedicated and caring mother of two. I have a passion for learning new things, and the desire to execute them to a high standard.
+          To me, life  is an eternal apprenticeship, as there is always opportunity to learn something new, for exemple, since moving to the UK, I have become somewhat of a DIY expert. I have worked in retail and received excellent feedback on my customer service skills.
+          Since learning coding, I have developed a passion for keyboards, having modified more than one and making them look awesome.
+        </p>
+    <div class="skill-list">
+          <br />
+        </div>
+      </div>
+    <ul class="list">
+        <li class="listItems"><i class="fa-brands fa-github"></i>GitHub</li>
+        <li class="listItems">
+          <i class="fa-brands fa-bootstrap"></i>Bootstrap
+        </li>
+        <li class="listItems"><i class="fa-brands fa-js"></i>JavaScript</li>
+        <li class="listItems"><i class="fa-brands fa-html5"></i>HTML</li>
+        <li class="listItems"><i class="fa-brands fa-node-js"></i>Node.js</li>
+        
+
+      </ul>
+      <ul class="list">
+        <li class="listItems"><i class="fa-brands fa-sass"></i>Sass</li>
+        <li class="listItems"><i class="fa-brands fa-python"></i>Python</li>
+        <li class="listItems"><i class="fa-solid fa-database"></i>SQL</li>
+        <li class="listItems"><i class="fa-solid fa-database"></i>NoSQL</li>
+        <li class="listItems"><i class="fa-solid fa-pepper-hot"></i>Flask</li>
+      </ul>
+            </div>
+            
+</section>
+<aside id="PROJ" >
+<div class="PROJimage"></div>
+
+
+<div class="proj-wrap">
+  <div class="item"><a class="projA" href="https://monicamorales.uk/GetOrganised/" target="_blank"><img class="projImg" src="./getOrg.jpg" alt=""></a></div>
+  <div class="item"><a class="projA" href="https://monicamorales.uk/BmiCalculator/" target="_blank"><img class="projImg" src="./bmiPic.jpg" alt=""></a></div>
+  <div class="item"><a class="projA" href="https://monicamorales.uk/Keyboards/" target="_blank"><img class="projImg" src="./wp_keyboards.jpg" alt=""></a></div>
+  <div class="item"><a class="projA" href="https://replit.com/@MonicaAghemio/sqlFilmFlix?v=1" target="_blank"><img class="projImg" src="./smFilmF.jpg" alt=""></a></div>
+  <div class="item"><a class="projA" href="https://replit.com/@MonicaAghemio/8MagicBall?v=1" target="_blank"><img class="projImg" src="./8MBall.jfif" alt=""></a></div>
+  <div class="item"><a class="projA" href="https://github.com/MonicaAghemio/PasswordGenerator" target="_blank"><img class="projImg" src="./PassGenerator.jpg" alt=""></a></div>
+  <div class="item"><a class="projA" href="https://github.com/MonicaAghemio/amazonScraper" target="_blank"><img class="projImg" src="./AmzScraper.jpg" alt=""></a></div>
+</div>
+         
+</div>
+</aside>
+<section class="myContact grid-contact">
+  <div id="contactHName">
+    <h3>Contact me</h3>
+    <a class="contactA" id="myMail" href="mailto:monicaaghemio@gmail.com">monicaaghemio@gmail.com</a>
+  <br>
+    <a class="icons" href="https://www.linkedin.com/in/monica-regina-morales-aghemio-8203748a"><i class="fa-brands fa-linkedin"></i></a>
+    <a class="icons" href="https://github.com/MonicaAghemio"><i class="fa-brands fa-github"></i></a>
+  </div>
+  <div id="formDiv">
+  <form action="mailto:monicaaghemio@gmail.com">
+  <div ><p class="contactP">Name:</p><input id="form" type="text" required></div>
+  <div ><p class="contactP">E-mail</p><input id="form" type="email" required></div>
+  <div class="form-msg"><p class="contactP">Your message:</p><textarea id="form" name="message" required></textarea></div>
+  <div class="submit-btn"><input type="submit" value="send"></div>  </form>
+
+</div>
+</section>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+
+</main>
+
+
+
+
+
+
+
+
+
+
+
 <script src="./script.js"></script>
   </body>
 </html>
